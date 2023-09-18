@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudEBook - A sua biblioteca digital</title>
+</head>
+
+<style>
+    .cabecalho{
+        background-color: rgb(55, 167, 182);
+        height: 80px;
+        width: auto;
+        display: flex;
+    }
+
+    .cabecalho .menu{
+        width: 40px;
+        height: 40px;
+        margin: 0px;
+        display: inline-flex;
+        margin: 20px;
+        
+    }
+
+    .cabecalho .logo{
+        width: 3000px;
+        display: flex;
+        justify-content: center;
+        font-family: 'arial';
+    }
+
+    .cabecalho .usuario{
+        width: 50px;
+        height: 50px;
+        display: inline-flex;
+        justify-content: center;
+        margin: 15px;
+    }
+
+    .novidades{
+        display: flex;
+        justify-content: center;
+        border: 1px;
+        box-sizing: content-box;
+        width: 1200px;
+        height: 400px;
+        margin: auto;
+        background-color: rgb(168, 168, 168);
+    }
+
+    .boasvindas{
+        display: flex;
+        justify-content: center;
+        font-family: 'Tahoma';
+        margin: 20px;
+    }
+
+    .rodape{
+        background-color: rgb(80, 80, 80);
+        height: 100px;
+        width: 100%;
+        margin-top: 100px;
+        color: white;
+        display: flex;
+        font-family: 'Tahoma';
+        font-weight: 10;
+        padding-bottom: 5px;
+    }
+
+    .rodape .iconeFooter{
+        height: 100px;
+        width: 100px;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rodape .copyright{
+        height: 100px;
+        width: 70%;
+        display: flex;
+        justify-content: right;
+        align-items:last baseline;
+        color: white;
+        font-family: 'Tahoma';
+        font-size: small;
+    }
+
+    .rodape .listaInfo{
+        height: 100px;
+        width: 800px;
+        margin-right: 0px;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .sobreBtn{
+        background-color: rgb(80, 80, 80);
+        border: none;
+        color: white;
+        font-family: 'Tahoma';
+        font-size: medium;
+        height: fit-content;
+        width: fit-content;
+        padding: 10px;
+    }
+
+    a:link { text-decoration: none; }
+
+    .sobreBtn:hover{
+        color: rgb(80, 80, 80);
+        background-color: white;
+        cursor: pointer;
+    }
+
+    body{
+        margin: 0%;
+        background-color: rgb(236, 236, 236);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+</style>
+
+<body>
+    <header class="cabecalho">
+        <div class="menu">
+            <img src="Imagens/menubar.png" alt="menubar.png">
+        </div>
+        <div class="logo">
+            <a href="home.html"><img src="Imagens/Logo.png" alt="logo.png" height="80px"></a>
+        </div>
+        <div class="usuario">
+           <img src="Imagens/Usuario.png" alt="Usuario.png">
+        </div>
+    </header>
+
+    <div class="boasvindas">
+        <h2>Bem-vindo(a) ao CloudEBook!</h2>
+    </div>
+
+    <div class="novidades">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8-QzL3Gs53s5QZJlD3UFjvWtoUxTkvIt-Iw&usqp=CAU
+        " alt="oi" height="400px" width="1200px">
+    </div>
+
+    <footer class="rodape">
+        <div class="iconeFooter">
+            <img src="Imagens/IconeBranco.png" alt="IconeBranco.png" height="60px">
+        </div>
+        <div class="copyright">
+            <p>CloudEBook — 2023 © Todos os direitos reservados</p>
+        </div>
+        <div class="listaInfo">
+            <a href="sobre.html" class="sobreBtn">Nossa missão</a>
+            <a href="contato.html" class="sobreBtn">Contate-nos</a>
+            <a href="faq.html" class="sobreBtn">FAQ</a>
+        </div>
+    </footer>
+</body>
+</html>
